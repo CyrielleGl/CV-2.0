@@ -1,0 +1,379 @@
+/* Entete */
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 2em;
+    position: relative;
+    margin: 1em 0 0em 0;
+    text-align: center;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.false-search-bar {
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.7em;
+    margin-top: 2em;
+    width:auto;
+    text-align:center;
+    background-color:lightgrey;
+    opacity: 0.5;
+    color:black;
+    padding: 0em 1em 0em 1em;
+    border-radius: 1em 1em 1em 1em;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 0.85em;
+}
+
+#center_block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*Infos */
+
+#slide { 
+    margin:0 auto; width: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+#content-slide { 
+    background-color:#fff;
+    color: black;
+    height: auto;
+    overflow:hidden;
+    text-align: center;
+    font-size: 0.9em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.open { 
+    display:inline-block;
+    padding: 1em 1em 1em 1em;
+    opacity: 0.8;
+    text-decoration: none;
+    color: #336666;
+    transition:0.3s;
+    text-align: center;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 1.5em;
+    border-radius:5em 0 5em 0;
+	background: #f5f5f5;
+	border:none;
+	padding: 0.4em 3em 0.3em 3em;
+    box-shadow:0.3em 0.3em 0.6em lightgrey;
+    margin: 1em 0 1em 0;
+}
+
+.open:hover, .open:focus { 
+    background-color:#fff;
+    color: #339999;
+    padding: none;
+    cursor: pointer;
+}
+
+#picto {
+    height: auto;
+    width: 1.5em;
+    vertical-align: middle;
+    margin-right: 0.4em;
+}
+
+/* Menu */
+
+#nav_menu {
+    display: block;
+    width: fit-content;
+	margin: 0 auto;
+	padding: 1em 0 0 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    list-style-type: none;
+}
+
+#li_menu {
+    margin-left: 1em;
+    margin-right: 1em;
+    float: left;
+    text-align: center;
+}
+
+ul li a {
+    display: block;  
+    width: 10em;
+    background-color: #339999;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.3em;
+    border: 0.15em solid;
+    border-color: #DCDCDC #696969 #696969 #DCDCDC;
+    margin-left: none;
+    }
+
+ul li a:hover {
+    background-color: #DCDCDC;
+    border-color: #696969 #DCDCDC #DCDCDC #696969;
+    }
+
+@media screen and (max-width: 841px)
+{
+    #menu {
+        width: 12.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #nav_menu {
+        display: block;
+        width: fit-content;
+        padding: none;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+        list-style-type: none;
+    }
+
+    #hr_style_1 {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        margin-top: 6em;
+    }
+}
+
+/* Home */
+
+#hr_style_1 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.parametres_photo {
+    height: auto;
+    width: 20em;
+    border-radius: 8em 0em 8em 0em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#corps {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 0.86em;
+}
+
+/*Technologies*/
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border: none;
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+}
+
+thead th:nth-child(1) {
+    width: 33%;
+}
+      
+thead th:nth-child(2) {
+    width: 33%;
+}
+      
+thead th:nth-child(3) {
+    width: 33%;
+}
+
+.no-border {
+    border: 0em none;
+    padding: none;
+    width: auto;
+}
+
+.table-title {
+    background-color: lightgrey;
+    opacity: 0.6;
+    padding: 1em 1em 1em 1em;
+}
+
+.td-content-center {
+    text-align: center;
+    vertical-align: top;
+}
+
+.tag {
+display:inline-block;
+width:auto;
+text-align:center;
+vertical-align:middle;
+background-color:#336666;
+opacity: 0.4;
+color:#fff;
+padding: 1em 4em 1em 4em;
+border-radius: 2em 2em 2em 2em;
+text-decoration:none;
+}
+
+#link_pdf {
+    color: #336666;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+}
+
+/* Formations */
+
+#date_formation {
+    font-size: 0.7em;
+    color:slategrey;
+    margin-top: 0em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#diplome {
+    font-size: 0.8em;
+    margin-bottom: 0.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#school {
+    font-size: 0.7em;
+    color:slategrey;
+    margin-top: 0em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#memoire {
+    font-size: 0.7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 0.8em;
+    color: darkslategrey;
+    margin-bottom: 0.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#margin {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+/* Expériences */
+
+#size_logo_AP {
+    height: 6.25em;
+    width: 9.375em;
+    padding: 0em 1em 0 0;
+}
+
+#size_logo_SG {
+    height: 3.4em;
+    width: 9.375em;
+    padding: 0em 1em 0 0;
+    vertical-align: center;
+}
+
+#job {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    margin-top: 0.36em;
+}
+
+#style_ul {
+    list-style-type: circle;
+    margin-bottom: 1.8em;
+}
+
+#date_experience {
+    font-size: 0.8em;
+    color:slategrey;
+    margin-top: 0.7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2.societe {
+    font-size: 1em;
+    color: darkslategrey;
+    margin-bottom: 0.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#description {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.75em;
+    margin-top: 0em;
+}
+
+#li_experiences {
+    margin-bottom: 0.6em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+}
+
+/*Compétences*/
+
+#li_personnalite {
+    margin-bottom: 1.17em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+}
+
+#li_loisirs {
+    margin-bottom: 0.65em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+}
+
+#logos_style_1 {
+    height: 1.8em;
+    width: auto;
+    margin-right: 0.2em;
+}
+
+#logos_style_2 {
+    height: 1.6em;
+    width: auto;
+    margin-right: 0.2em;
+}
+
+#logos_style_3 {
+    height: 1.9em;
+    width: auto;
+    margin-right: 0.2em;
+}
+
+#logos_style_4 {
+    height: 2em;
+    width: auto;
+    margin-right: 0.2em;
+}
+
+/* Pied de Page */
+
+.pied_de_page {
+    text-align: center;
+    font-size: 0.5em;
+}
