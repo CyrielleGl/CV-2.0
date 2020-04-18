@@ -6,16 +6,16 @@
 <?php include("menu.php"); ?>
 
     <div id="margin"><br>
-        <h2>▹ BAC+4 | DÉVELOPPEUSE FULL STACK</h2>
-        <div id="date_formation">2020-2022</div>
-            <p id="diplome">Master Développement Web & Mobile (titre RNCP Niveau II)<br/></p>
+        <h2>▹ BAC+5 | DÉVELOPPEUSE WEB & MOBILE</h2>
+        <div id="date_formation">2020-2023</div>
+            <p id="diplome">Master Architecture Web & Big Data (titre RNCP Niveau I)<br/></p>
             <p id="school"> IPSSI - Paris</p>
     </div><br>
 
 <hr id="hr_style_1">
     
     <div id="margin"><br>
-        <h2>▹ BAC+5 | COMMUNICATION</h2>
+        <h2>▹ BAC+5 | MARKETING & COMMUNICATION</h2>
         <div id="date_formation">2015-2017</div>
             <p id="diplome">Master Manager du Marketing et de la Communication (titre RNCP Niveau I)<br/></p>
             <p id="school"> EFFICOM - Campus Sciences-U Esupcom Paris</p>

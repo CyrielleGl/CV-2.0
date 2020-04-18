@@ -1,8 +1,8 @@
 <header>
 
-<a href="index.php"><h1>Développeuse Web & Mobile</h1></a>
+<a href="index.php"><h1>Développeuse Web & Webmarketing</h1></a>
 
-    <div id="center_block"><p class="false-search-bar">🔎 <u>Contrat de professionnalisation - Bac+3/Bac+4</u></p></div>
+    <div id="center_block"><p class="false-search-bar">🔎 <u>Contrat d'apprentissage - 2/3 ans</u></p></div>
 
     <div id="slide">      
                 <div id="content-slide">
