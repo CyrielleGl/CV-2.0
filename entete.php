@@ -7,8 +7,8 @@
     <div id="slide">      
                 <div id="content-slide">
                     
-                    <p class="alignes"><img src="./phone.png" id="picto"/> 06.21.49.29.11</p>
-                    <p class="alignes"><img src="./mail.png" id="picto"/> <a href="mailto:cyrielle.gallou@gmail.com" class="link">cyrielle.gallou@gmail.com</a></p>
+                    <p><img src="./phone.png" id="picto"/> 06.21.49.29.11</p>
+                    <p><img src="./mail.png" id="picto"/> <a href="mailto:cyrielle.gallou@gmail.com" class="link">cyrielle.gallou@gmail.com</a></p>
 
                 </div>
 
