@@ -94,101 +94,6 @@ a {
     margin-right: 0.4em;
 }
 
-/* Menu */
-
-@media screen and (min-width: 840px)
-{
-    #nav_mobile {
-        display: none;
-    }
-
-    #horizontal_list {
-        list-style: none;
-        display: block;
-        width: fit-content;
-        margin: auto;
-        padding: 1em 0 0 0;
-    }
-    ul li.horizontal {
-        display: inline-block;
-        text-align: center;
-        margin-left: 1em;
-        margin-right: 1em;
-        font-family: fantasy;
-        font-size: 1.4em;
-    }
-    #liens_menu {
-        color: #000000;
-        font-family: cursive;
-        text-shadow: #336666 1px 0 15px;
-        text-decoration: none;
-    }
-}
-
-/* Sur mobile */
-@media screen and (max-width: 840px)
-{
-#menu_desktop {
-    display: none;
-}
-
-nav ul {
-    display: none;
-    list-style-type: none;
-    text-decoration: underline;
-    background-color: #fff;
-    color: black;
-    padding-inline-start: 0em;
-}
-
-nav input[type=checkbox]:checked + ul {
-    display: flex;
-    flex-flow: column wrap;
-}
-
-nav {
-    width: 100%;
-    margin: 0 auto;
-    background-color: #fff;
-    position: sticky;
-    top: 0em;
-}
-
-nav input[type=checkbox] {
-    display: none;
-}
-
-nav label {
-    display: inline-block;
-    width: 100%;
-    padding: none;
-    text-align: center;
-    background-color: #fff;
-}
-
-.conteneur-nav {
-    position: absolute;
-    width: 100%;
-    display: block;
-    text-align: center;
-    font-family: cursive;
-    font-size: 1.3em;
-}
-
-#liens_mobile {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 0.73em;
-    color: #000000;
-    text-decoration: none;
-}
-#border_menu {
-    border-color: #336666;
-    border-width: 0 0 4px 0;
-    border-style: double;
-    padding: 1em 0 1em 0;
-    text-decoration: none;
-}
-}
 /* Home */
 
 #hr_style_1 {
@@ -407,4 +312,100 @@ h2.societe {
 .pied_de_page {
     text-align: center;
     font-size: 0.5em;
+}
+
+/* Menu */
+
+/* Sur mobile */
+@media screen and (max-width: 839px)
+{
+#menu_desktop {
+    display: none;
+}
+
+nav ul {
+    display: none;
+    list-style-type: none;
+    text-decoration: underline;
+    background-color: #fff;
+    color: black;
+    padding-inline-start: 0em;
+}
+
+nav input[type=checkbox]:checked + ul {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    position: sticky;
+    top: 0em;
+}
+
+nav input[type=checkbox] {
+    display: none;
+}
+
+nav label {
+    display: inline-block;
+    width: 100%;
+    padding: none;
+    text-align: center;
+    background-color: #fff;
+}
+
+.conteneur-nav {
+    position: absolute;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.3em;
+}
+
+#liens_mobile {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.73em;
+    color: #000000;
+    text-decoration: none;
+}
+#border_menu {
+    border-color: #336666;
+    border-width: 0 0 4px 0;
+    border-style: double;
+    padding: 1em 0 1em 0;
+    text-decoration: none;
+}
+}
+
+@media screen and (min-width: 840px)
+{
+    #nav_mobile {
+        display: none;
+    }
+
+    #horizontal_list {
+        list-style: none;
+        display: block;
+        width: fit-content;
+        margin: auto;
+        padding: 1em 0 0 0;
+    }
+    ul li.horizontal {
+        display: inline-block;
+        text-align: center;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-family: fantasy;
+        font-size: 1.4em;
+    }
+    #liens_menu {
+        color: #000000;
+        font-family: cursive;
+        text-shadow: #336666 1px 0 15px;
+        text-decoration: none;
+    }
 }
