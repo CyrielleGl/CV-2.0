@@ -302,9 +302,10 @@ h2.societe {
 }
 
 #logos_style_4 {
-    height: 2em;
+    height: 2.1em;
     width: auto;
     margin-right: 0.2em;
+    vertical-align: bottom;
 }
 
 /* Pied de Page */
@@ -316,7 +317,7 @@ h2.societe {
 
 /* Menu */
 
-/* Sur mobile */
+/* Mobile */
 @media screen and (max-width: 839px)
 {
 #menu_desktop {
@@ -352,7 +353,7 @@ nav input[type=checkbox] {
 nav label {
     display: inline-block;
     width: 100%;
-    padding: none;
+    padding: 0 0 0.5em 0;
     text-align: center;
     background-color: #fff;
 }
@@ -372,15 +373,22 @@ nav label {
     color: #000000;
     text-decoration: none;
 }
-#border_menu {
+
+li#style_lignes_menu {
+    border-bottom: 1px solid lightgrey;
+}
+
+ul#border_menu {
     border-color: #336666;
-    border-width: 0 0 4px 0;
-    border-style: double;
-    padding: 1em 0 1em 0;
+    border-width: 2px 0 0 0;
+    border-style: solid;
+    padding: 0.5em 0 1em 0;
     text-decoration: none;
+    margin: 0 0 0 0;
 }
 }
 
+/* Desktop */
 @media screen and (min-width: 840px)
 {
     #nav_mobile {

@@ -1,14 +1,17 @@
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="stylesheet.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
 
 <nav id="nav_mobile">
     <div class="conteneur-nav">
         <label for="mobile">≡ Menu ≡</label>
         <input type="checkbox" id="mobile" role="button">
         <ul id="border_menu">
-            <li><a href="technologies.php" id="liens_mobile">⤙ Technologies ⤚</a></li>
-            <li><a href="formations.php" id="liens_mobile">⤙ Formations ⤚</a></li>
-            <li><a href="experiences.php" id="liens_mobile">⤙ Expériences ⤚</a></li>
-            <li><a href="competences.php" id="liens_mobile">⤙ Compétences ⤚</a></li>
+            <li id="style_lignes_menu"><a href="technologies.php" id="liens_mobile">Technologies</a></li>
+            <li id="style_lignes_menu"><a href="formations.php" id="liens_mobile">Formations</a></li>
+            <li id="style_lignes_menu"><a href="experiences.php" id="liens_mobile">Expériences</a></li>
+            <li id="style_lignes_menu"><a href="competences.php" id="liens_mobile">Compétences</a></li>
         </ul>
     </div>
 </nav>

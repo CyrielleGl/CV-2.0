@@ -1,3 +1,4 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link type="text/css" rel="stylesheet" href="stylesheet.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
@@ -15,6 +16,7 @@
         <img src="./technos-logos/mysql.png" id="logos_style_1" title="MySQL" alt="MySQL"/>
         <img src="./technos-logos/jquery.png" id="logos_style_3" title="jQuery" alt="jQuery"/>
         <img src="./technos-logos/visual-studio-code.png" id="logos_style_1" title="Visual Studio Code" alt="Visual Studio Code"/>
+        <img src="./technos-logos/heroku.png" id="logos_style_4" title="Heroku" alt="Heroku"/>
     <br/><br/>
         <img src="./technos-logos/adobe-photoshop.png" id="logos_style_1" title="Photoshop" alt="Photoshop"/>
         <img src="./technos-logos/adobe-lightroom.png" id="logos_style_1" title="Lightroom" alt="Lightroom"/>
