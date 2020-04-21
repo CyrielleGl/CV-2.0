@@ -67,7 +67,6 @@ a {
     opacity: 0.8;
     text-decoration: none;
     color: #336666;
-    transition:0.3s;
     text-align: center;
     font-family: cursive;
     font-weight: lighter;
@@ -372,10 +371,12 @@ nav label {
     font-size: 0.73em;
     color: #000000;
     text-decoration: none;
+    font-variant-caps: small-caps;
 }
 
 li#style_lignes_menu {
     border-bottom: 1px solid lightgrey;
+    padding: 0.3em;
 }
 
 ul#border_menu {
