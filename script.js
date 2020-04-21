@@ -1,23 +1,25 @@
+
 $(document).ready(function(){ /*Infos*/
-    
+
     $("#content-slide").hide();
 
     $(".open").click(function() {
 
         if($("#content-slide").is(":visible")){
 
-            $("#content-slide").slideUp();
+            $("#content-slide").hide();
             $(".open").text("Cyrielle Gallou");
     
-            } else {
+        } 
+        else {
 
-                $("#content-slide").slideDown();
-                $(".open").text("Cyrielle Gallou");
+            $("#content-slide").slideDown();
+            $(".open").text("Cyrielle Gallou");
     
-            };
+        };
 
-    return false;
+        return false;
         
-    });
+        });
 
 });

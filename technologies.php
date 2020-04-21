@@ -1,6 +1,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link type="text/css" rel="stylesheet" href="stylesheet.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./js/jquery-3.5.0.js"></script>
 <script type="text/javascript" src="script.js"></script>
 
 <?php include("entete.php"); ?>    

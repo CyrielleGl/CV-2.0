@@ -1,3 +1,8 @@
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="stylesheet.css">
+        <script src="./js/jquery-3.5.0.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+
 <header>
 
 <a href="index.php"><h1>Développeuse Web & Webmarketing</h1></a>
@@ -13,6 +18,6 @@
                 </div>
 
                 <a class="open">Cyrielle Gallou</a>
-    </div>  
+    </div>
 
 </header>
