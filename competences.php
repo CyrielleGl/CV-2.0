@@ -18,6 +18,7 @@
         <img src="./technos-logos/visual-studio-code.png" id="logos_style_1" title="Visual Studio Code" alt="Visual Studio Code"/>
         <img src="./technos-logos/heroku.png" id="logos_style_4" title="Heroku" alt="Heroku"/>
     <br/><br/>
+        <img src="./technos-logos/adobe-xd.png" id="logos_style_1" title="Adobe XD" alt="Adobe XD"/>
         <img src="./technos-logos/adobe-photoshop.png" id="logos_style_1" title="Photoshop" alt="Photoshop"/>
         <img src="./technos-logos/adobe-lightroom.png" id="logos_style_1" title="Lightroom" alt="Lightroom"/>
         <img src="./technos-logos/adobe-illustrator.png" id="logos_style_1" title="Illustrator" alt="Illustrator"/>
