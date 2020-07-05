@@ -11,9 +11,12 @@
 <br/>
 
         <img src="./technos-logos/html-css-js-git.png" id="logos_style_1" title="html-css-js-git" alt="html-css-js-git"/>
+    <br/><br/>
+        <img src="./technos-logos/angular.png" id="logos_style_3" title="Angular" alt="Angular"/>
         <img src="./technos-logos/php.png" id="logos_style_2" title="PHP" alt="PHP"/>
         <img src="./technos-logos/mysql.png" id="logos_style_1" title="MySQL" alt="MySQL"/>
         <img src="./technos-logos/jquery.png" id="logos_style_3" title="jQuery" alt="jQuery"/>
+    <br/><br/>
         <img src="./technos-logos/visual-studio-code.png" id="logos_style_1" title="Visual Studio Code" alt="Visual Studio Code"/>
         <img src="./technos-logos/heroku.png" id="logos_style_4" title="Heroku" alt="Heroku"/>
 <br/><br/>

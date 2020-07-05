@@ -12,6 +12,7 @@
 <br/>
     <div>
         <img src="./technos-logos/html-css-js-git.png" id="logos_style_1" title="html-css-js-git" alt="html-css-js-git"/>
+        <img src="./technos-logos/angular.png" id="logos_style_3" title="Angular" alt="Angular"/>
         <img src="./technos-logos/php.png" id="logos_style_2" title="PHP" alt="PHP"/>
         <img src="./technos-logos/mysql.png" id="logos_style_1" title="MySQL" alt="MySQL"/>
         <img src="./technos-logos/jquery.png" id="logos_style_3" title="jQuery" alt="jQuery"/>
